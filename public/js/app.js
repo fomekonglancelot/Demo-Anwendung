@@ -1856,6 +1856,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
@@ -1911,6 +1913,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   props: ['type', 'disabled', 'name', 'placeholder', 'validations', 'error'],
@@ -1938,6 +1943,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var vee_validate__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vee-validate */ "./node_modules/vee-validate/dist/vee-validate.esm.js");
+//
+//
+//
 //
 //
 //
@@ -40765,7 +40773,7 @@ var staticRenderFns = [
           staticClass: "block text-sm text-gray-700 font-bold mb-2",
           attrs: { for: "unit" }
         },
-        [_vm._v("\n                 Einheit\n             ")]
+        [_vm._v("\n                Einheit\n            ")]
       ),
       _vm._v(" "),
       _c("div", { staticClass: "mt-1" }, [
@@ -40953,7 +40961,7 @@ var staticRenderFns = [
           staticClass: "block text-sm text-gray-700 font-bold mb-2",
           attrs: { for: "currency" }
         },
-        [_vm._v("\n                  Währung\n              ")]
+        [_vm._v("\n                Währung\n            ")]
       ),
       _vm._v(" "),
       _c("div", { staticClass: "mt-1" }, [

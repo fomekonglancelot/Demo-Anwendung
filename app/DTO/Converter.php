@@ -28,13 +28,13 @@ class Converter
      */
     public function currency($country): string
     {
-        $currency ='';
+        $currency = '';
         switch ($country) {
             case 'us':
                 $currency = '$';
                 break;
             default:
-               $currency = '€';
+                $currency = '€';
                 break;
         }
         return $currency;
@@ -59,7 +59,7 @@ class Converter
     public function numberFormat($country, $number): string
     {
 
-         $format = '';
+        $format = '';
         switch ($country) {
             case 'us':
                 $format = number_format($number, 2, '.', ',');
@@ -85,17 +85,17 @@ class Converter
 
     public function determinedCountry(string $currency): string
     {
-        $country ='';
+        $country = '';
 
-        if (($this->locale === "de" || $this->locale === "fr") && $currency === "$" ){
+        if (($this->locale === "de" || $this->locale === "fr") && $currency === "$") {
 
-            return $country ="us";
+            return $country = "us";
 
-        }else if ( $this->locale === "fr" && $currency === "€"){
-                return $country ="fr";
+        } else if ($this->locale === "fr" && $currency === "€") {
+            return $country = "fr";
 
-        }else{
-            return $country ="de";
+        } else {
+            return $country = "de";
         }
 
         return $country;

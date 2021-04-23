@@ -26,8 +26,8 @@ class UserFactory extends Factory
         return [
             'email' => $this->faker->unique()->safeEmail(),
             'password' => bcrypt('password'),
-            'height' => number_format($this->faker->numberBetween(100, 10000), 2, ',', '.').'m',
-            'pay'=> number_format($this->faker->numberBetween(10, 10000), 2, ',', '.').'€',
+            'height' => number_format($this->faker->numberBetween(100, 10000), 2, ',', '.') . 'm',
+            'pay' => number_format($this->faker->numberBetween(10, 10000), 2, ',', '.') . '€',
 
         ];
     }

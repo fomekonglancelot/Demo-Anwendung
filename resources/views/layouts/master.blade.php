@@ -10,16 +10,16 @@
 </head>
 <body class="bg-gray-200">
 
-    @include('layouts.includes.nav')
+@include('layouts.includes.nav')
 
-    <div class="container mx-auto" id="app">
+<div class="container mx-auto" id="app">
 
-        @yield('content')
+    @yield('content')
 
-    </div>
+</div>
 
-    @include('layouts.includes.footer')
+@include('layouts.includes.footer')
 
-    <script src="{{ mix('js/app.js') }}"></script>
+<script src="{{ mix('js/app.js') }}"></script>
 </body>
 </html>

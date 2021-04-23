@@ -6,7 +6,7 @@
     </div>
 
     <div class="bg-white shadow-md  rounded px-8 pt-6 pb-8 mb-4 flex flex-col my-2">
-        <form class="mt-8"  action="{{route('users.store')}}" method="POST">
+        <form class="mt-8" action="{{route('users.store')}}" method="POST">
             @csrf
             <input-component
                 type="text"
@@ -43,7 +43,8 @@
             </input-pay-component>
 
             <div class="mt-8 rounded-md sm:mt-0 sm:ml-3 sm:flex-shrink-0">
-                <button type="submit" class="px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                <button type="submit"
+                        class="px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                     create
                 </button>
             </div>
