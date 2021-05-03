@@ -2019,7 +2019,7 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 (0,vee_validate__WEBPACK_IMPORTED_MODULE_0__.extend)('email', _objectSpread(_objectSpread({}, vee_validate_dist_rules__WEBPACK_IMPORTED_MODULE_1__.email), {}, {
   message: 'Dieses Feld soll eine valide email Addresse sein'
-})); // Add the email rule
+})); // Add the numeric rule
 
 (0,vee_validate__WEBPACK_IMPORTED_MODULE_0__.extend)('numeric', _objectSpread(_objectSpread({}, vee_validate_dist_rules__WEBPACK_IMPORTED_MODULE_1__.numeric), {}, {
   message: 'Dieses Feld soll numeric sein'

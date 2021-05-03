@@ -16,7 +16,7 @@ extend('email', {
     message: 'Dieses Feld soll eine valide email Addresse sein'
 });
 
-// Add the email rule
+// Add the numeric rule
 extend('numeric', {
     ...numeric,
     message: 'Dieses Feld soll numeric sein'
